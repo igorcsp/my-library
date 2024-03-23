@@ -45,3 +45,13 @@ CREATE TABLE tb_livrosDeInteresseA ( id INTEGER NOT NULL AUTO_INCREMENT, usuario
 CREATE TABLE tb_historico ( id INTEGER NOT NULL AUTO_INCREMENT, usuario_id INTEGER NOT NULL , titulo VARCHAR(60) NOT NULL , autor VARCHAR(45) NOT NULL , PRIMARY KEY(id), FOREIGN KEY(usuario_id) REFERENCES tb_usuariosa(id)
  );
 ```
+
+### On `/NetbeansProjects/ProjectMyLibrary/` create file `DB-config.env` and add the text below:
+
+```
+DB_USERNAME=root
+DB_PASSWORD= // add your db password here
+DB_DATABASE=db_library
+DB_HOST=localhost
+DB_PORT=3306
+```
