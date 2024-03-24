@@ -1,5 +1,7 @@
 # Projeto MyLibrary
 
+Project made at my first semester of college using Apache Netbeans IDE
+
 ### Database sample:
 
 ```
