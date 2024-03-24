@@ -2,7 +2,7 @@
 
 Project made at my first semester of college using Apache Netbeans IDE
 
-### Database sample:
+### SQL Database sample:
 
 ```
 CREATE DATABASE db_library;
